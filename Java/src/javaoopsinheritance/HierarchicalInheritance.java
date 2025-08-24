@@ -6,19 +6,19 @@ class EUser {
 	}
 }
 
-class Customers extends EUser {
+class ECustomers extends EUser {
 	void addToCart() {
 		System.out.println("Customer add product to cart");
 	}
 }
 
-class Sellers extends EUser {
+class ESellers extends EUser {
 	void manageInventory() {
 		System.out.println("Seller manage inventory");
 	}
 }
 
-class Admin extends EUser {
+class EAdmin extends EUser {
 	void manageUsers() {
 		System.out.println("Admin manage eusers");
 	}
@@ -28,15 +28,15 @@ public class HierarchicalInheritance {
 
 	public static void main(String[] args) {
 
-		Customers customers = new Customers();
+		ECustomers customers = new ECustomers();
 		customers.login("customer1", "customer1_7852");
 		customers.addToCart();
 
-		Sellers sellers = new Sellers();
+		ESellers sellers = new ESellers();
 		sellers.login("seller1", "seller_1_897");
 		sellers.manageInventory();
 
-		Admin admin = new Admin();
+		EAdmin admin = new EAdmin();
 		admin.login("admin", "admin123");
 		admin.manageUsers();
 
