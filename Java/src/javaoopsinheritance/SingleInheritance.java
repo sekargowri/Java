@@ -6,7 +6,7 @@ class UserLogin {
 	}
 }
 
-class Customer extends UserLogin {
+class Customers extends UserLogin {
 	void browseProducts() {
 		System.out.println("Customer is browsing products");
 	}
