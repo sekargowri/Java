@@ -13,5 +13,6 @@ public class Login {
 	public void login() {
 		System.out.println("User entered username: " + username);
 		System.out.println("User entered password: " + password);
+		System.out.println("User logged in successfully");
 	}
 }
