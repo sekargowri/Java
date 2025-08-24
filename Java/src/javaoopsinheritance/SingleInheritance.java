@@ -10,6 +10,9 @@ class Customer extends User {
 	void browseProducts() {
 		System.out.println("Customer is browsing products");
 	}
+	void placeOrder() {
+		System.out.println("Customer placed order");
+	}
 }
 
 public class SingleInheritance {
