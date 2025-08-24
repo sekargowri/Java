@@ -1,24 +1,21 @@
 package javaoopsinheritance;
 
-class User {
+class UserLogin {
 	void login(String username, String password) {
 		System.out.println("User logged in");
 	}
 }
 
-class Customer extends User {
+class Customer extends UserLogin {
 	void browseProducts() {
 		System.out.println("Customer is browsing products");
-	}
-	void placeOrder() {
-		System.out.println("Customer placed order");
 	}
 }
 
 public class SingleInheritance {
 	public static void main(String[] args) {
 
-		User user = new User();
+		UserLogin user = new UserLogin();
 		user.login("user1", "user_123");
 
 		Customer customer = new Customer();
