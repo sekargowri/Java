@@ -13,7 +13,6 @@ class Customer extends User {
 }
 
 public class SingleInheritance {
-
 	public static void main(String[] args) {
 
 		User user = new User();
