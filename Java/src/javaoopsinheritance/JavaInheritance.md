@@ -15,3 +15,16 @@ A class inherits from a class which itself inherits from another class.
 ```
 Multiple classes inherit from a single parent class.
 ```
+
+## Multiple Inheritance 
+```
+A class inherits from more than one interface.
+```
+
+## Hybrid Inheritance
+```
+A combination of multiple inheritance types.
+```
+
+
+
