@@ -1,12 +1,12 @@
 package javaoopsinheritance;
 
-class Users {
+class EUsers {
 	void login(String username, String password) {
 		System.out.println("User logged in");
 	}
 }
 
-class Seller extends Users {
+class Seller extends EUsers {
 	void listProduct() {
 		System.out.println("Seller listed products");
 	}
@@ -22,7 +22,7 @@ public class MultilevelInheritance {
 
 	public static void main(String[] args) {
 
-		Users users = new Users();
+		EUsers users = new EUsers();
 		users.login("user1", "user_789");
 
 		Seller seller = new Seller();
