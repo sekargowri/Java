@@ -72,10 +72,10 @@ boolean variableName = value;
 String stringVariable = new String("StringValue");
 ```
 
-## Array
+## Arrays
 
 ```java
-int arrayName[] = {value 1, value 2, value 3 };
+int arrayName[] = { value 1, value 2, value 3 };
 ```
 
 
