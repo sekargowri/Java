@@ -1,5 +1,5 @@
 package javaoopsclass;
 
-public class JavaClass {
+public class Class {
 
 }
