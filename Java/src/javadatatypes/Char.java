@@ -12,8 +12,8 @@ public class Char {
 		// char number = '425';
 		// Invalid character constant
 
-		char numberchar = 04;
-		System.out.println(numberchar); // 
+		char numberchar = 100;
+		System.out.println(numberchar); // d
 
 		char currencySymbol = '₹';
 		System.out.println("Currency Symbol is: " + currencySymbol);
