@@ -17,6 +17,7 @@ public class Char {
 
 		char currencySymbol = '₹';
 		System.out.println("Currency Symbol is: " + currencySymbol);
+
 	}
 
 }
