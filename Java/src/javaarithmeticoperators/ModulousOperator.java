@@ -7,7 +7,7 @@ public class ModulousOperator {
 		int number1 = 80;
 		int number2 = 10;
 
-		System.out.println(number1 % number2);
+		System.out.println(number1 % number2); // returns remainder value
 
 	}
 
